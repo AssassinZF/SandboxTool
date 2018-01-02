@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01122F931FFB60270043796C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01122F921FFB60270043796C /* AppDelegate.swift */; };
+		01122F951FFB60270043796C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01122F941FFB60270043796C /* ViewController.swift */; };
+		01122F981FFB60270043796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01122F961FFB60270043796C /* Main.storyboard */; };
+		01122F9A1FFB60270043796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01122F991FFB60270043796C /* Assets.xcassets */; };
+		01122F9D1FFB60270043796C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01122F9B1FFB60270043796C /* LaunchScreen.storyboard */; };
+		01122FA81FFB60270043796C /* SandBoxToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01122FA71FFB60270043796C /* SandBoxToolTests.swift */; };
+		01122FB31FFB60270043796C /* SandBoxToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01122FB21FFB60270043796C /* SandBoxToolUITests.swift */; };
+		01122FC41FFB60BF0043796C /* ZFSandBoxTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01122FC31FFB60BF0043796C /* ZFSandBoxTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01122FA41FFB60270043796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01122F871FFB60270043796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01122F8E1FFB60270043796C;
+			remoteInfo = SandBoxTool;
+		};
+		01122FAF1FFB60270043796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01122F871FFB60270043796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01122F8E1FFB60270043796C;
+			remoteInfo = SandBoxTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01122F8F1FFB60270043796C /* SandBoxTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBoxTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01122F921FFB60270043796C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01122F941FFB60270043796C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01122F971FFB60270043796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01122F991FFB60270043796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01122F9C1FFB60270043796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01122F9E1FFB60270043796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01122FA31FFB60270043796C /* SandBoxToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01122FA71FFB60270043796C /* SandBoxToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxToolTests.swift; sourceTree = "<group>"; };
+		01122FA91FFB60270043796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01122FAE1FFB60270043796C /* SandBoxToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01122FB21FFB60270043796C /* SandBoxToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxToolUITests.swift; sourceTree = "<group>"; };
+		01122FB41FFB60270043796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01122FC31FFB60BF0043796C /* ZFSandBoxTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFSandBoxTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01122F8C1FFB60270043796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122FA01FFB60270043796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122FAB1FFB60270043796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01122F861FFB60270043796C = {
+			isa = PBXGroup;
+			children = (
+				01122F911FFB60270043796C /* SandBoxTool */,
+				01122FA61FFB60270043796C /* SandBoxToolTests */,
+				01122FB11FFB60270043796C /* SandBoxToolUITests */,
+				01122F901FFB60270043796C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01122F901FFB60270043796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01122F8F1FFB60270043796C /* SandBoxTool.app */,
+				01122FA31FFB60270043796C /* SandBoxToolTests.xctest */,
+				01122FAE1FFB60270043796C /* SandBoxToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01122F911FFB60270043796C /* SandBoxTool */ = {
+			isa = PBXGroup;
+			children = (
+				01122FC01FFB60440043796C /* ToolClass */,
+				01122F921FFB60270043796C /* AppDelegate.swift */,
+				01122F941FFB60270043796C /* ViewController.swift */,
+				01122F961FFB60270043796C /* Main.storyboard */,
+				01122F991FFB60270043796C /* Assets.xcassets */,
+				01122F9B1FFB60270043796C /* LaunchScreen.storyboard */,
+				01122F9E1FFB60270043796C /* Info.plist */,
+			);
+			path = SandBoxTool;
+			sourceTree = "<group>";
+		};
+		01122FA61FFB60270043796C /* SandBoxToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				01122FA71FFB60270043796C /* SandBoxToolTests.swift */,
+				01122FA91FFB60270043796C /* Info.plist */,
+			);
+			path = SandBoxToolTests;
+			sourceTree = "<group>";
+		};
+		01122FB11FFB60270043796C /* SandBoxToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01122FB21FFB60270043796C /* SandBoxToolUITests.swift */,
+				01122FB41FFB60270043796C /* Info.plist */,
+			);
+			path = SandBoxToolUITests;
+			sourceTree = "<group>";
+		};
+		01122FC01FFB60440043796C /* ToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				01122FC31FFB60BF0043796C /* ZFSandBoxTool.swift */,
+			);
+			path = ToolClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01122F8E1FFB60270043796C /* SandBoxTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01122FB71FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxTool" */;
+			buildPhases = (
+				01122F8B1FFB60270043796C /* Sources */,
+				01122F8C1FFB60270043796C /* Frameworks */,
+				01122F8D1FFB60270043796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandBoxTool;
+			productName = SandBoxTool;
+			productReference = 01122F8F1FFB60270043796C /* SandBoxTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01122FA21FFB60270043796C /* SandBoxToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01122FBA1FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxToolTests" */;
+			buildPhases = (
+				01122F9F1FFB60270043796C /* Sources */,
+				01122FA01FFB60270043796C /* Frameworks */,
+				01122FA11FFB60270043796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01122FA51FFB60270043796C /* PBXTargetDependency */,
+			);
+			name = SandBoxToolTests;
+			productName = SandBoxToolTests;
+			productReference = 01122FA31FFB60270043796C /* SandBoxToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01122FAD1FFB60270043796C /* SandBoxToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01122FBD1FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxToolUITests" */;
+			buildPhases = (
+				01122FAA1FFB60270043796C /* Sources */,
+				01122FAB1FFB60270043796C /* Frameworks */,
+				01122FAC1FFB60270043796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01122FB01FFB60270043796C /* PBXTargetDependency */,
+			);
+			name = SandBoxToolUITests;
+			productName = SandBoxToolUITests;
+			productReference = 01122FAE1FFB60270043796C /* SandBoxToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01122F871FFB60270043796C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "kris'Liu";
+				TargetAttributes = {
+					01122F8E1FFB60270043796C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					01122FA21FFB60270043796C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01122F8E1FFB60270043796C;
+					};
+					01122FAD1FFB60270043796C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01122F8E1FFB60270043796C;
+					};
+				};
+			};
+			buildConfigurationList = 01122F8A1FFB60270043796C /* Build configuration list for PBXProject "SandBoxTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01122F861FFB60270043796C;
+			productRefGroup = 01122F901FFB60270043796C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01122F8E1FFB60270043796C /* SandBoxTool */,
+				01122FA21FFB60270043796C /* SandBoxToolTests */,
+				01122FAD1FFB60270043796C /* SandBoxToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01122F8D1FFB60270043796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01122F9D1FFB60270043796C /* LaunchScreen.storyboard in Resources */,
+				01122F9A1FFB60270043796C /* Assets.xcassets in Resources */,
+				01122F981FFB60270043796C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122FA11FFB60270043796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122FAC1FFB60270043796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01122F8B1FFB60270043796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01122F951FFB60270043796C /* ViewController.swift in Sources */,
+				01122FC41FFB60BF0043796C /* ZFSandBoxTool.swift in Sources */,
+				01122F931FFB60270043796C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122F9F1FFB60270043796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01122FA81FFB60270043796C /* SandBoxToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01122FAA1FFB60270043796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01122FB31FFB60270043796C /* SandBoxToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01122FA51FFB60270043796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01122F8E1FFB60270043796C /* SandBoxTool */;
+			targetProxy = 01122FA41FFB60270043796C /* PBXContainerItemProxy */;
+		};
+		01122FB01FFB60270043796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01122F8E1FFB60270043796C /* SandBoxTool */;
+			targetProxy = 01122FAF1FFB60270043796C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01122F961FFB60270043796C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01122F971FFB60270043796C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01122F9B1FFB60270043796C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01122F9C1FFB60270043796C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01122FB51FFB60270043796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01122FB61FFB60270043796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01122FB81FFB60270043796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01122FB91FFB60270043796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01122FBB1FFB60270043796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBoxTool.app/SandBoxTool";
+			};
+			name = Debug;
+		};
+		01122FBC1FFB60270043796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBoxTool.app/SandBoxTool";
+			};
+			name = Release;
+		};
+		01122FBE1FFB60270043796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SandBoxTool;
+			};
+			name = Debug;
+		};
+		01122FBF1FFB60270043796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CX9244259Y;
+				INFOPLIST_FILE = SandBoxToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.test.1.SandBoxToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SandBoxTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01122F8A1FFB60270043796C /* Build configuration list for PBXProject "SandBoxTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01122FB51FFB60270043796C /* Debug */,
+				01122FB61FFB60270043796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01122FB71FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01122FB81FFB60270043796C /* Debug */,
+				01122FB91FFB60270043796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01122FBA1FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01122FBB1FFB60270043796C /* Debug */,
+				01122FBC1FFB60270043796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01122FBD1FFB60270043796C /* Build configuration list for PBXNativeTarget "SandBoxToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01122FBE1FFB60270043796C /* Debug */,
+				01122FBF1FFB60270043796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01122F871FFB60270043796C /* Project object */;
+}
